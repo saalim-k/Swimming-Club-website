@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="72c4e9b84e3a4a5398b7b39ff61c772c" Name="Diagram1" ZoomLevel="85">
+        <EntityTypeShape EntityType="SwimmingClubDBModel.Account" Width="1.5" PointX="5.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SwimmingClubDBModel.AccountInfo" Width="1.5" PointX="7.875" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SwimmingClubDBModel.Cart" Width="1.5" PointX="0.625" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SwimmingClubDBModel.Category" Width="1.5" PointX="0.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SwimmingClubDBModel.FAQ" Width="1.5" PointX="3.125" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SwimmingClubDBModel.Feedback" Width="1.5" PointX="3.125" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SwimmingClubDBModel.Forum" Width="1.5" PointX="6.625" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SwimmingClubDBModel.ForumReply" Width="1.5" PointX="8.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SwimmingClubDBModel.News" Width="1.5" PointX="0.625" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SwimmingClubDBModel.Product" Width="1.5" PointX="3.125" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="SwimmingClubDBModel.FK_AccountInfo_ToAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="SwimmingClubDBModel.FK_Cart_ToAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="SwimmingClubDBModel.FK_Feedback_ToAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="SwimmingClubDBModel.FK_Forum_ToAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="SwimmingClubDBModel.FK_ForumReply_ToAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="SwimmingClubDBModel.FK_Cart_ToProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="SwimmingClubDBModel.FK_Product_ToCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="SwimmingClubDBModel.FK_ForumReply_ToForum" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
